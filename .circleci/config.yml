@@ -7,7 +7,7 @@ jobs:
   build:
     docker:
       # specify the version you desire here
-      - image: lamentinos/moartests
+      - image: lamentinos/moartests:v1.0
       
       # Specify service dependencies here if necessary
       # CircleCI maintains a library of pre-built images
@@ -24,7 +24,7 @@ jobs:
     steps:
       - run:
           name: unit
-          command: ./tmp/stable-test/gradlew test
+          command: ./gradlew test
       - store_artifacts:
           path: /tmp/stable-test/app/build/reports
           destination: reports
