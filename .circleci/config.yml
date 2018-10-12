@@ -14,7 +14,7 @@ jobs:
       # documented at https://circleci.com/docs/2.0/circleci-images/
       # - image: circleci/postgres:9.4
 
-    working_directory: /tmp/testapp
+    working_directory: /tmp/stable-test
 
     environment:
       # Customize the JVM maximum heap limit
@@ -26,10 +26,10 @@ jobs:
           name: unit
           command: ./gradlew test
       - store_artifacts:
-          path: /tmp/testapp/app/build/reports
+          path: /tmp/stable-test/app/build/reports
           destination: reports
       - store_test_results:
-          path: /tmp/testapp/app/build/test-results
+          path: /tmp/stable-test/app/build/test-results
 
 
 
