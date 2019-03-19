@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "7872731211",
+    "firebase_url": "https://test-e2c2c.firebaseio.com",
+    "project_id": "test-e2c2c",
+    "storage_bucket": "test-e2c2c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:7872731211:android:2a5adb577e30b63b",
+        "android_client_info": {
+          "package_name": "com.sqisland.tutorial.recipes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "7872731211-v5addaan11vm84qm4vnon92dehhh029a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sqisland.tutorial.recipes",
+            "certificate_hash": "bd9ba155d807de70df4c868615ec47f9d6b2e83f"
+          }
+        },
+        {
+          "client_id": "7872731211-0uef13c5n89a5eulmuh1s23u3i138qrt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2wZuR6YkkqnoUG-jN8a4pllV5jYh3pN8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "7872731211-0uef13c5n89a5eulmuh1s23u3i138qrt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

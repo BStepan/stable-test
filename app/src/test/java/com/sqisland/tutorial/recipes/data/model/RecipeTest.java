@@ -7,6 +7,7 @@ import java.io.InputStream;
 import static org.junit.Assert.*;
 
 public class RecipeTest {
+
     @Test
     public void water() {
         InputStream stream = RecipeTest.class.getResourceAsStream("/recipes/water.txt");
