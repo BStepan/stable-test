@@ -1,11 +1,11 @@
 <component name="libraryTable">
   <library name="Gradle: com.android.support:support-core-utils:25.3.1@aar">
     <ANNOTATIONS>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/4cda677ea8cfd9bcb636d197a11a9a7a/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/a7e254cdd96b33154b689f31c757ba61/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/4cda677ea8cfd9bcb636d197a11a9a7a/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/4cda677ea8cfd9bcb636d197a11a9a7a/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/a7e254cdd96b33154b689f31c757ba61/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/a7e254cdd96b33154b689f31c757ba61/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
