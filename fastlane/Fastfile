@@ -30,7 +30,7 @@ platform :android do
   end
 
   desc "Build androidTest apk"
-    lane :debug do
+    lane :testApp do
       gradle(task: "assembleAndroidTest")
 
       # sh "your_script.sh"
