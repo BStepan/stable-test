@@ -22,7 +22,7 @@ platform :android do
   end
 
   desc "Build debug apk"
-  lane :debug do
+  lane :debugBuild do
     gradle(task: "clean assembleDebug")
   
     # sh "your_script.sh"
