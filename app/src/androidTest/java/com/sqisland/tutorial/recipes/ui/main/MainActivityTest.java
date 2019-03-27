@@ -49,6 +49,8 @@ public class MainActivityTest {
             e.printStackTrace();
         }
 
+
+
         ViewInteraction textView = onView(
                 allOf(withText("Chocolate Pudding"),
                         childAtPosition(
