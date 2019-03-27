@@ -51,6 +51,7 @@ public class MainActivityTest {
 
 
 
+
         ViewInteraction textView = onView(
                 allOf(withText("Chocolate Pudding"),
                         childAtPosition(
