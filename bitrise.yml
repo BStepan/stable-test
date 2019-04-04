@@ -26,6 +26,9 @@ app:
 workflows:
   primary:
     steps:
+    - script@1.1.5:
+      inputs:
+        - content: echo "Hello World!!!"
     - certificate-and-profile-installer@1.10.1: {}
     - install-missing-android-tools@2.3.5:
         inputs:
