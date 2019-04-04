@@ -23,11 +23,6 @@ app:
   - opts:
       is_expand: false
     PROJECT_LOCATION: "/Users/vagrant/git"
-trigger_map:
-- push_branch: "*"
-  workflow: primary
-- pull_request_source_branch: "*"
-  workflow: primary
 workflows:
   primary:
     steps:
